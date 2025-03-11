@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="content">
+            <h1>Hi, I'm Khadar</h1>
+            <p>B.Tech | Computer Science |UI/UX Designer & Python Enthusiast</p>
+            <img src="D:\Portfoliyo\IMG_20240919_072913.jpg" alt="Your Picture" class="profile-img">
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="content">
+                <div class="text">
+                    <p>Hi, I'm KhadarVali, a passionate Computer Science student at SVR Engineering College. With a strong foundation in UI/Ux Design and Python,blending technical innovation with creative design to craft impactful and user-friendly solutions working on real-world projects like web applications, chat systems, and data scraping tools.Beyond coding, I love dancing, acting, and mentoring aspiring developers. My goal is to create impactful software solutions that help people and businesses grow.
+                </div>
+                <div class="images">
+                    <div class="image-popup">
+                        <img src="D:\Portfoliyo\career.jpg" alt="Career Image 1">
+                        <div class="popup-text">Internship at Coincent</div>
+                    </div>
+                    <div class="image-popup">
+                        <img src="D:\Portfoliyo\carrer2.jpg" alt="Career Image 2">
+                        <div class="popup-text">Web Development Journey</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2>My Skills</h2>
+        <div class="skills-list">
+            <div class="skill">
+                <div class="skill-info">
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>Python Programming</h3>
+                    <span>85%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>HTML</h3>
+                    <span>80%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>CSS</h3>
+                    <span>35%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>UI/UX Design</h3>
+                    <span>70%</span>
+                </div>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Projects Section -->
+<section id="projects" class="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="projects-list">
+            <div class="project" data-aos="fade-up">
+                <img src="D:\Portfoliyo\maxresdefault.jpg" alt="Python Snake Game">
+                <div class="project-info">
+                    <h3>Python Snake Game</h3>
+                    <p>A classic snake game built using Python and the Pygame library.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+                <img src="D:\Portfoliyo\maxresdefault (1).jpg" alt="AI Chatbot">
+                <div class="project-info">
+                    <h3>AI Chatbot</h3>
+                    <p>An intelligent chatbot developed with Python and NLP techniques.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+                <img src="D:\Portfoliyo\images.jpg" alt="Car Racing Game">
+                <div class="project-info">
+                    <h3>Car Racing Game</h3>
+                    <p>A fun and interactive car racing game created using Python and Pygame.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <div class="project" data-aos="fade-up">
+                <img src="D:\Portfoliyo\https___dev-to-uploads.s3.amazonaws.com_uploads_articles_in55mu4qz5zl5lt2drli.jpg" alt="QR Code Scanner">
+                <div class="project-info">
+                    <h3>QR Code Scanner</h3>
+                    <p>A QR code scanner application built with Python and OpenCV.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="title">My Certifications</h2>
+            <div class="certificates-list">
+                <div class="certificate" onclick="openPopup('cert1')">
+                    <img src="D:\Portfoliyo\WhatsApp Image 2025-03-03 at 8.01.09 PM.jpeg" alt="Skill India GUVI Certificate">
+                    <h3>Skill India GUVI</h3>
+                    <p>Certification of completion in skill-based learning provided by GUVI.</p>
+                </div>
+                <div class="certificate" onclick="openPopup('cert2')">
+                    <img src="D:\Portfoliyo\html.jpg" alt="AI For India 2.0">
+                    <h3>AI For India 2.0</h3>
+                    <p>Successfully completed AI For India 2.0 program focused on AI and ML fundamentals.</p>
+                </div>
+                <div class="certificate" onclick="openPopup('cert3')">
+                    <img src="D:\Portfoliyo\gdsc.jpg" alt="Google Cloud Computing Foundations">
+                    <h3>Google Cloud Computing Foundations</h3>
+                    <p>Certified by Google Cloud for foundational knowledge in cloud computing.</p>
+                </div>
+                <div class="certificate" onclick="openPopup('cert4')">
+                    <img src="D:\Portfoliyo\codesoft.jpg" alt="RGM College Certificate of Merit">
+                    <h3>RGM College - Certificate of Merit</h3>
+                    <p>Awarded a Certificate of Merit for outstanding academic performance.</p>
+                </div>
+                <div class="certificate" onclick="openPopup('cert5')">
+                    <img src="D:\Portfoliyo\WhatsApp Image 2025-03-03 at 8.01.09 PM (1).jpeg" alt="CodeSoft Certification">
+                    <h3>CodeSoft Certification</h3>
+                    <p>Completed a certification program in web development and programming from CodeSoft.</p>
+                </div>
+                <div class="certificate" onclick="openPopup('cert6')">
+                    <img src="D:\Portfoliyo\WhatsApp Image 2025-03-03 at 8.01.10 PM (1).jpeg" alt="ChatGPT & AI Tools Workshop">
+                    <h3>ChatGPT & AI Tools Workshop</h3>
+                    <p>Participated in a hands-on workshop exploring AI tools and ChatGPT applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popups -->
+    <div id="cert1" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert1')">&times;</span>
+            <h3>Skill India GUVI</h3>
+            <p>Certification of completion in skill-based learning provided by GUVI.</p>
+        </div>
+    </div>
+
+    <div id="cert2" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert2')">&times;</span>
+            <h3>AI For India 2.0</h3>
+            <p>Successfully completed AI For India 2.0 program focused on AI and ML fundamentals.</p>
+        </div>
+    </div>
+
+    <div id="cert3" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert3')">&times;</span>
+            <h3>Google Cloud Computing Foundations</h3>
+            <p>Certified by Google Cloud for foundational knowledge in cloud computing.</p>
+        </div>
+    </div>
+
+    <div id="cert4" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert4')">&times;</span>
+            <h3>RGM College - Certificate of Merit</h3>
+            <p>Awarded a Certificate of Merit for outstanding academic performance.</p>
+        </div>
+    </div>
+
+    <div id="cert5" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert5')">&times;</span>
+            <h3>CodeSoft Certification</h3>
+            <p>Completed a certification program in web development and programming from CodeSoft.</p>
+        </div>
+    </div>
+
+    <div id="cert6" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('cert6')">&times;</span>
+            <h3>ChatGPT & AI Tools Workshop</h3>
+            <p>Participated in a hands-on workshop exploring AI tools and ChatGPT applications.</p>
+        </div>
+    </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out through any of the platforms below.</p>
+
+        <div class="contact-container">
+            <div class="contact-item fade-in">
+                <a href="https://www.instagram.com/khadar_vali_official?igsh=MWRucnV3bXFtdDdzOQ==" target="_blank">
+                    <img src="D:\Portfoliyo\Instagram_logo_2022.jpeg" alt="Instagram">
+                    <span>Instagram</span>
+                </a>
+            </div>
+            <div class="contact-item fade-in">
+                <a href="https://youtube.com/@starboytech-123?si=FZ08yiMJc9blda1Q" target="_blank">
+                    <img src="D:\Portfoliyo\channels4_profile.jpg" alt="YouTube">
+                    <span>YouTube</span>
+                </a>
+            </div>
+            <div class="contact-item fade-in">
+                <a href="https://www.linkedin.com/in/khadar-vali-shaik-a2aa30270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                    <img src="D:\Portfoliyo\linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-.jpeg" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div class="contact-item fade-in">
+                <a href="https://x.com/khadarvali22994?t=RVnrVS2unU8vieH7NiEjww&s=08">
+                    <img src="D:\Portfoliyo\images.jpeg" alt="Email">
+                    <span>vector</span>
+                </a>
+            </div>
+            <div class="contact-item fade-in">
+                <a href="22am1a3149@svrec.ac.in">
+                    <img src="D:\Portfoliyo\google.jpg" alt="Email">
+                    <span>Gmail</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2>Download My Resume</h2>
+            <p>Interested in my skills and experience? Click the button below to download my resume.</p>
+            <a href="images/resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section>
+
+
+</body>
+</html>
